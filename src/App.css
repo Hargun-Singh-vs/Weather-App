@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Container {
+  padding: 1rem;
+  display: flex;
+  justify-content: centre;
+}
+
+
+#inputRegion {
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  max-width: 100%;
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+
+.btn{
+  background-color: rgb(59, 139, 237);
+  color: white;
+  width: 45%;
+  margin: 0 10px;
+}
+
+.weatherContainer{
+  overflow: scroll;
+  max-height: 90vh;
+}
+
+
+/* Common styles */
+.weather-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 1rem; /* Optional spacing */
+}
+
+.weather-card h2 { /* Assuming you want an h2 for the date */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.weather-card p {
+  margin-bottom: 0.25rem;
+}
+
+/* Specialized styles (you can add more as needed) */
+.weather-card .temp {
+  color: blue; /* Example for temperatures */
+}
+
+.weather-card .wind {
+  color: green; /* Example for wind speed */
+}
+
+
+
+/* City information */
+.weather-card .city {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Weather icon */
+.weather-card img {
+  width: 10rem; /* Adjust as needed */
+  height: 10rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Temperature */
+.weather-card .temperature {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+/* Weather condition */
+.weather-card .weather-condition {
+  font-size: 1rem;
+  text-transform: capitalize; /* Capitalize the first letter */
+}
